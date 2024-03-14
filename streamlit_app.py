@@ -15,7 +15,7 @@ Choose the fruits you want in your custom Smoothie!
 name_on_order = st.text_input('Name on smoothie:')
 st.write('The name of your smoothie will be:',name_on_order)
 
-fv_df = st.dataframe(data=fruityvice_response.json(), use_container_width=True
+fv_df = st.dataframe(data=fruityvice_response.json(), use_container_width=True)
 
 # Get the current credentials
 cnx = st.connection("snowflake")
